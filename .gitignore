@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/last-codex-output.ndjson
+data/portfolio-snapshot.json
+*.log
+.DS_Store
