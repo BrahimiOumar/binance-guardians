@@ -268,3 +268,11 @@ We'd rather list these plainly than have a judge discover them silently:
 This is a hackathon MVP, not financial or security advice. Binance Guardians
 never recommends buying or selling anything, and cannot execute trades or
 withdrawals under any circumstance in this codebase.
+
+## 🚀 Future Roadmap & Community Feedback
+
+Following insightful feedback from the community regarding financial risk auditability, the V2 roadmap includes:
+
+- **Immutable Risk Artifacts**: Serializing the full context (holdings snapshot, raw price feeds, ATR lookback, and exact formulas) into a replayable JSON artifact.
+- **Resilience Testing & Abstention**: Implementing failure logs for stale/conflicting inputs to ensure the AI assistant clean-abstains rather than hallucinating when data is missing.
+- 
