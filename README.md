@@ -276,3 +276,16 @@ Following insightful feedback from the community regarding financial risk audita
 - **Immutable Risk Artifacts**: Serializing the full context (holdings snapshot, raw price feeds, ATR lookback, and exact formulas) into a replayable JSON artifact.
 - **Resilience Testing & Abstention**: Implementing failure logs for stale/conflicting inputs to ensure the AI assistant clean-abstains rather than hallucinating when data is missing.
 - 
+## 🏗️ System Architecture
+
+To understand how the Express backend, the portfolio import module, and the AI integration layers (Anthropic / Binance Agent OS) work together, here is the complete architecture diagram of the project:
+
+<p align="center">
+  <img width="600" alt="Binance Guardians Architecture Diagram" src="https://github.com" />
+</p>
+
+### Key Components:
+* **API Orchestration:** Powered by `server.js`, `AnalysisController.js`, and the portfolio importer.
+* **Explanation Layer:** The bridge to Anthropic and Binance Agent OS APIs that translates raw risk scores into actionable, human-readable insights.
+* **Analysis Engine:** The deterministic framework (`RiskGate.js`) ensuring high-precision calculations for risk metrics like volatility and concentration.
+* 
