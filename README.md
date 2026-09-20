@@ -281,7 +281,7 @@ Following insightful feedback from the community regarding financial risk audita
 To understand how the Express backend, the portfolio import module, and the AI integration layers (Anthropic / Binance Agent OS) work together, here is the complete architecture diagram of the project:
 
 <p align="center">
-  <img width="600" alt="Binance Guardians Architecture Diagram" src="https://github.com" />
+  <img width="600" alt="Binance Guardians Architecture Diagram" src="https://github.com/user-attachments/assets/51f55055-e200-411f-a5db-0171c0d8ac71"  />
 </p>
 
 ### Key Components:
